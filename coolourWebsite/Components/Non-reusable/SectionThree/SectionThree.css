@@ -1,0 +1,33 @@
+.iconia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1280px;
+    height: fit-content;
+    box-sizing: border-box;
+    
+    p{
+        margin-bottom: 40px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .divIcons{
+        width: 100%;
+        height: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+}
+
+.divThree{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}

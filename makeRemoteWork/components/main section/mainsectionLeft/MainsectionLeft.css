@@ -1,0 +1,41 @@
+
+.mainLeft{
+    width: 510px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    h1{
+        font-size: 90px;
+        font-weight: 900;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        width: 425px;
+        font-size: 22px;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    button{
+        width: 165px;
+        height: 55px;
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        border: transparent;
+        border-radius: 15px;
+        margin-bottom: 80px;
+    }
+
+    .images{
+        width: 480px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

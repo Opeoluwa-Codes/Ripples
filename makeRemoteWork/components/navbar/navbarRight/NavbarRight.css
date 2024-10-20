@@ -1,0 +1,29 @@
+
+.navRight{
+    width: 185px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    width: 38px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    color: grey;
+}
+
+.register{
+    width: 105px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px grey solid;
+    border-radius: 15px;
+    font-weight: 550;
+    color: grey;
+}

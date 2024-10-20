@@ -1,0 +1,12 @@
+
+.mainAll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    align-content: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    height: fit-content;
+    margin-bottom: 100px;
+}

@@ -33,7 +33,7 @@ const Header =()=>{
 
                     <div className='links'>
 
-                        <StyledLink to="/PlusMinus"><section><p className='none'>PlusMinus</p><ArrowDown/></section></StyledLink>
+                        <StyledLink to="/PlusMinus"><section><p>PlusMinus</p><ArrowDown/></section></StyledLink>
                         <StyledLink to="/UseEffect"><section><p>UseEffect</p> <ArrowDown/></section></StyledLink>
                         <section><p>Company</p> <ArrowDown/></section>
                         <section><p>Help</p> <ArrowDown/></section>

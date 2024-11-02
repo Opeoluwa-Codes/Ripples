@@ -40,7 +40,7 @@ const FooterWrapper = styled.div`
         bottom: 0px;
         width: 100%;
         height: 80px;
-        font-size: 14px;
+        font-size: 12px;
         z-index: 10000;
         background-color: #eff1ff
     }

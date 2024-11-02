@@ -1,0 +1,21 @@
+// const Prop = ({open, text}) =>{
+//     return(
+//         <div className={open}>
+//             {text}
+//         </div>
+//     );
+// };
+// export default Prop;
+
+// // destructured - cleaner code
+
+// const Prop = (props) =>{
+//     return(
+//         <div className={`open ${props.open}`}>
+//             {props.text}
+//         </div>
+//     );
+// };
+// export default Prop;
+
+// // not destrutured

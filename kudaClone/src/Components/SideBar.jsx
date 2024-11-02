@@ -15,7 +15,7 @@ const SideBar =({isOpen, onClose})=>{
             <SideWrapper className={isOpen ? "open" : ""}>
 
                 <div className='headerDiv'>
-                        <Logo/>
+                        <Linker to="/"><Logo/></Linker>
                         <Close onClick = {onClose}/>           
                 </div>
 

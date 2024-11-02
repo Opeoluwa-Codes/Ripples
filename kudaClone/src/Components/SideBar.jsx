@@ -8,6 +8,7 @@ import { IoClose } from "react-icons/io5";
 import { MdOutlineArrowRight } from "react-icons/md";
 
 const SideBar =({isOpen, onClose})=>{
+
     return(
         <div>
 
@@ -27,8 +28,8 @@ const SideBar =({isOpen, onClose})=>{
 
                 <div className='linkDiv'>
 
-                    <section><p>Personal</p><ArrowRight/></section>
-                    <section><p>Business</p><ArrowRight/></section>
+                    <Linker to="/PlusMinus"><section><p>PlusMinus</p><ArrowRight/></section></Linker>
+                    <Linker to="/UseEffect"><section><p>UseEffect</p><ArrowRight/></section></Linker>
                     <section><p>Company</p><ArrowRight/></section>
                     <section><p>Developer</p></section>
                     <section><p>Contact Us</p></section>
@@ -145,4 +146,8 @@ const LastSection = styled.div`
             color: #40196d;
         }
 
+`
+
+const Linker = styled(Link)`
+    text-decoration: none;
 `

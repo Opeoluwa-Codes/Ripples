@@ -97,10 +97,7 @@ const UseEffect =()=>{
 export default UseEffect;
 
 const WrapAll = styled.div`
-    width: 80%;
-    height: 85%;
-    margin: 10% 10% 5% 10%;
-    
+    border: none;
 `
 
 const Load = styled(AiOutlineLoading3Quarters)`
@@ -133,6 +130,57 @@ const Contain = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    width: 80%;
+    height: 85%;
+    margin: 10% 10% 5% 10%;
+
+    @media (max-width: 1107px) {
+        margin-left: 8%;
+        width: 84%;
+        margin-right: 8%;
+    }
+
+    @media (max-width: 1056px) {
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    @media (max-width: 921px) {
+        margin-left: 2%;
+        width: 96%;
+        margin-right: 2%;
+    }
+
+    @media (max-width: 853px) {
+        margin-left: 10%;
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    @media (max-width: 769px) {
+        margin: 15% 10% 18% 10%;
+    }
+
+    @media (max-width: 749px) {
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    @media (max-width: 693px) {
+        margin-left: 2%;
+        width: 96%;
+        margin-right: 2%;
+    }
+
+    @media (max-width: 651px) {
+        margin-left: 1%;
+        width: 98%;
+        margin-right: 1%;
+    }
+
 `
 
 const ContainEach = styled.div`
@@ -143,6 +191,18 @@ const ContainEach = styled.div`
     flex-direction: column;
     border-radius: 10px;
     background-color: #40196d;
+
+    @media (max-width: 853px) {
+        width: 40%;
+    }
+
+    @media (max-width: 651px) {
+        width: 35%;
+    }
+
+    @media (max-width: 653px) {
+        width: 40%;
+    }
 
 `
 

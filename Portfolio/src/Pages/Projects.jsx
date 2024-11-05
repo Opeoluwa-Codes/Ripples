@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from "styled-components";
 import { Link } from 'react-router-dom';
-import ProjectTiles from "../Components/Reusable/ProjectTiles"
-import Pasteries from "../assets/JPG/Pasteries.jpg"
-import Flag from "../assets/JPG/Flag.jpg"
+import ProjectTiles from "../Components/Reusable/ProjectTiles";
+import Pasteries from "../assets/JPG/Pasteries.jpg";
+import Flag from "../assets/JPG/Flag.jpg";
 
 const Projects =()=>{
     return(

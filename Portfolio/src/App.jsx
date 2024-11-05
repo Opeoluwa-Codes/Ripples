@@ -1,8 +1,7 @@
 import styled from "styled-components"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./Static/Header"
-import Contact from "./Components/HomePage/Contact"
-import Hero from "./Components/HomePage/Hero";
+import Contact from "../src/Pages/Contact"
 import About from "./Pages/About";
 import Footer from "./Static/Footer";
 import Projects from "./Pages/Projects"

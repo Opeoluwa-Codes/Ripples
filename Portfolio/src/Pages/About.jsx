@@ -24,11 +24,8 @@ const About =()=>{
             <Top>
 
                 <KnowMe>
-
-                    Know Me
-
+                    Me
                 </KnowMe>
-
 
                 <MeInfo>
 
@@ -127,28 +124,37 @@ const Top = styled.div`
     width: inherit;
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    margin-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
     
 `
 
 const KnowMe = styled.div`
-    
+
     font-size: 80px;
     font-weight: 500;
     font-family: Bebas Neue;
+    letter-spacing: 2px;
     color: #1E3A8A;
-    width: fit-content;
-    
+    margin-bottom: 30px;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 `
 
 const MeInfo = styled.div`
     
-    width: 600px;
-    height: fit-content;
-    box-sizing: border-box;
-    padding-top: 10px;
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
     
 `
 

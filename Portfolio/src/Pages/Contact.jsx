@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from 'react-router-dom';
-import Icons from "../Reusable/Icons"
+import Icons from "../Components/Reusable/Icons"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
@@ -53,7 +53,7 @@ const ContactWrapper = styled.div`
     width: 100%;
     height: fit-content;
     box-sizing: border-box;
-    padding: 0px 100px 50px 100px ;
+    padding: 100px 100px 100px 100px ;
     display: flex;
     justify-content: space-between;
     align-items: start;

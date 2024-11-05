@@ -33,8 +33,8 @@ const HeroWrapper = styled.div`
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     
     display: flex;
     justify-content: space-between;
